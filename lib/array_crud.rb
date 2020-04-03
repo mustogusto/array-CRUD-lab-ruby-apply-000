@@ -10,6 +10,7 @@ end
 
 def add_element_to_end_of_array(array, element = 's')
 array = ['p', 'e', 'a']
+element = 's'
 array << 's'
 end
 
