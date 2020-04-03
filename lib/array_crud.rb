@@ -8,7 +8,8 @@ def create_an_array
 ['a', 'v', 'e', 'd']
 end
 
-def add_element_to_end_of_array(array = ['p', 'e', 'a'], element = 's')
+def add_element_to_end_of_array(array, element = 's')
+array = ['p', 'e', 'a']
 array << 's'
 end
 
